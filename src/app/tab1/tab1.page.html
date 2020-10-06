@@ -1,0 +1,66 @@
+
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title style="color: #800000;">
+       Mary
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-slides #slides autoplay="true" loop="true" pager="false" scrollbar="true" [options]="slideOpts"
+  (ionSlideDidChange)="ionSlideDidChange($event)" (ionSlideDoubleTap)="ionSlideDoubleTap($event)"
+  (ionSlideDrag)="ionSlideDrag($event)" (ionSlideNextEnd)="ionSlideNextEnd($event)"
+  (ionSlideReachEnd)="ionSlideReachEnd($event)">
+  <ion-slide class="bg-2">
+    <section class="wrapper">
+    <ion-card style="color: #755139ff;height: 100%;">
+      <ion-item>
+        <ion-label style="font:bold;">About Mary</ion-label>
+      </ion-item>
+      <ion-card-content style="color: #755139ff;">
+        Mary is an AI powered chatbot who understands and responds to the breast cancer related queries. She besides an app can also be connected by phone. In the real world, users instead of surfing internet for answers, doctors and other details can directly connect with this trusted friendly bot for advices.
+      </ion-card-content>
+    </ion-card>
+    </section>
+  </ion-slide>
+  
+  <ion-slide class="bg-2">
+    <section class="wrapper">
+      <ion-card style="color: #755139ff;height: 100%;">
+        <ion-item>
+          <ion-label style="font:bold;">Mary: Features & Capabilities</ion-label>
+        </ion-item>
+        <ion-card-content style="color: #755139ff;">
+          <ul>
+            <li>Chat bot for human like conversations using chat or voice</li>
+            <li><b>Multi channel</b>-Mobile App, Website, and Phone </li>
+            <li>Get curated information from reliable sources in Q&A format
+            <li>Clinics Near you</li>
+            <li>Appointment booking</li>
+          </ul>
+        </ion-card-content>
+      </ion-card>
+      </section>
+  </ion-slide>
+  <ion-slide class="bg-2">
+    <section class="wrapper">
+      <ion-card style="color: #755139ff;height: 100%;">
+        <ion-item>
+          <ion-label style="font:bold;">Mary : Tech Stack</ion-label>
+        </ion-item>
+        <ion-card-content style="color: #755139ff;">
+          <ul>
+            <li>Angular 10,ionic 5,cordova</li>
+            <li>Dialog Flow</li>
+            <li>Spring Boot</li>
+            <li>SQL DB</li>
+          </ul>
+        </ion-card-content>
+      </ion-card>
+      </section>
+  </ion-slide>
+</ion-slides>
+
+
+</ion-content>

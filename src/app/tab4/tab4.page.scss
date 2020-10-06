@@ -1,0 +1,71 @@
+
+  ion-content .wrapper {
+    min-height: 100%;
+   //background: #b69999;
+  //  --ion-background-color: rgb(213, 218, 214) !important;
+  --ion-background-color: rgb(225, 198, 153) !important;
+  //   background-image: url('../../assets/images/3.jpg');
+    }
+
+    .bg-8 {
+      // background-color: #fbc02d;
+      //background-color: white;
+    background-image: url('../../assets/images/connect.jpg');
+      background-size: cover;
+    }
+
+    
+    .parent-row {
+      height: 300px;
+  }
+  
+  .col1 {
+      background-color: red;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden
+  }
+  
+  .col1 img {
+      flex-shrink: 0;
+      max-width: 100%;
+      min-height: 100%;
+  }
+  
+  .col2 {
+      background-color: orange;
+  }
+  
+  .image2 {
+     // background-color: blue;
+      //height: 50%;
+      //background-image: url('../../assets/images/9.png') !important;;
+  }
+  
+  .image2 img {
+      flex-shrink: 0;
+      min-width: auto;
+      min-height: auto;
+     background-image: url('../../assets/images/9.png');
+  }
+  
+  .image3 {
+      background-color: green;
+      height: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+   //   background-image: url('../../assets/images/connect.jpg')
+  }
+  
+  .image3 img {
+      flex-shrink: 0;
+      min-width: 100%;
+      min-height: auto;
+  }
+  
+  .center-image {
+
+  }

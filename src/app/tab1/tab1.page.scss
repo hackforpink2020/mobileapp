@@ -1,0 +1,47 @@
+ion-slides {
+    height: 100%;
+  }
+  
+  .bg-1 {
+     background-color: #ffff;
+    //background-image: url('../../assets/images/1.jpg');
+    background-size: cover;
+    border-radius: 10px;
+
+  }
+  .bg-2 {
+    // background-color: #fbc02d;
+    background-color: white;
+  //  background-image: url('../../assets/images/2.jpg');
+    background-size: cover;
+
+   
+  }
+  .bg-3 {
+    // background-color: #7cb342;
+    background-color: rgb(225, 198, 153);
+  // background-image: url('../../assets/images/3.jpg');
+    background-size: cover;
+  }
+
+  ion-slide.swiper-slide {
+    align-items: flex-start;
+}
+
+
+ion-content .wrapper {
+  min-height: 100%;
+ //background: #b69999;
+//  --ion-background-color: rgb(213, 218, 214) !important;
+--ion-background-color: rgb(225, 198, 153) !important;
+//   background-image: url('../../assets/images/3.jpg');
+  }
+
+
+  ul {
+    margin-top: 5px;
+  }
+  ul li {
+    text-align: left;
+    list-style: disc;
+  }
